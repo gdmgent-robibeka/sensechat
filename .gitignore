@@ -1,0 +1,8 @@
+.vscode
+app/__pycache__
+app/checkpoint
+app/data.pickle
+app/model.tflearn.data-00000-of-00001
+app/model.tflearn.index
+app/model.tflearn.meta
+test

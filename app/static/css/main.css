@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(18, 18, 18);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 14px;
+    color: #FFF;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: 25em;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 95%;
+    border: none;
+    border-bottom: 3px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #00ac9a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botText {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #494e5c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* #tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+} */
+
+.boxed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    height: 70vh;
+    margin-top: 60px;
+    overflow: auto;
+}
+
+.box {
+    border: 2px solid #FFF;
+}
