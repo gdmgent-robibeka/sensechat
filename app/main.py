@@ -30,8 +30,8 @@ except:
             docs_x.append(wrds)
             docs_y.append(intent["tag"])
 
-            if intent["tag"] not in labels:
-                labels.append(intent["tag"])
+        if intent["tag"] not in labels:
+            labels.append(intent["tag"])
 
     words = [stemmer.stem(w.lower()) for w in words if w != "?"]
     words = sorted(list(set(words)))
@@ -69,9 +69,9 @@ with open("data.pickle", "wb") as f:
 tensorflow.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(training[0])])
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 10)
+net = tflearn.fully_connected(net, 10)
+net = tflearn.fully_connected(net, 10)
 net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 
