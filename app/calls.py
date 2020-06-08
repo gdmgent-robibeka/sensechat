@@ -13,3 +13,11 @@ def get_cat_fact():
     response = response.json()['data']
     fact = ''.join(map(str, response))
     return fact
+
+def get_joke():
+    response = requests.get("https://geek-jokes.sameerkumar.website/api")
+    return response.json()
+
+def get_buzz_word():
+    response = requests.get("https://corporatebs-generator.sameerkumar.website/")
+    return response.json()['phrase']

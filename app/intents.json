@@ -62,6 +62,14 @@
     {"tag": "girlfriend",
      "patterns": ["Do you have a girlfriend?", "do you have a lover?", "do you have someone?"],
      "responses": ["Yes, her name is Amber", "Yes, I love her very much!"]
+    },
+    {"tag": "joke",
+     "patterns": ["Do you know any jokes?", "can you make me laugh?", "do you know a joke"],
+     "responses": ["Sure: ", "Of course: "]
+    },
+    {"tag": "buzz",
+     "patterns": ["Do you know any corporate buzz words?", "what would a corporate buzz word look like", "do you know any corporate cringe?"],
+     "responses": ["Sure: ", "Of course: "]
     }
 ]
 }

@@ -12,7 +12,7 @@ def get_bot_response():
     userText = request.args.get('msg')
     return main.chat(userText)
 
-host = '192.168.0.188'
+host = '0.0.0.0'
 port = 8080
 if __name__ == '__main__':
     app.run(host=host, port=port, debug=True)
